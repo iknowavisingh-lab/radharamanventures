@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Radha Raman Ventures | Manpower Supplier</title>
+    <meta name="description" content="Radha Raman Ventures - Reliable manpower supplier providing skilled and unskilled workforce across industries.">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+    <div class="container">
+        <h1>Radha Raman Ventures</h1>
+        <nav>
+            <a href="#home">Home</a>
+            <a href="#about">About</a>
+            <a href="#services">Services</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </div>
+</header>
+
+<section id="home" class="hero">
+    <div class="container">
+        <h2>Your Trusted Manpower Partner</h2>
+        <p>Providing reliable, skilled, and efficient manpower solutions for your business needs.</p>
+        <a href="#contact" class="btn">Get in Touch</a>
+    </div>
+</section>
+
+<section id="about" class="section">
+    <div class="container">
+        <h2>About Us</h2>
+        <p>
+            Radha Raman Ventures is a professional manpower supplier firm dedicated to
+            delivering quality workforce solutions across various industries.
+            We focus on reliability, compliance, and long-term partnerships.
+        </p>
+    </div>
+</section>
+
+<section id="services" class="section light">
+    <div class="container">
+        <h2>Our Services</h2>
+        <div class="cards">
+            <div class="card">Skilled Manpower Supply</div>
+            <div class="card">Unskilled & Semi-Skilled Workforce</div>
+            <div class="card">Contract Staffing</div>
+            <div class="card">Industrial & Commercial Staffing</div>
+        </div>
+    </div>
+</section>
+
+<section class="section">
+    <div class="container">
+        <h2>Why Choose Us</h2>
+        <ul class="features">
+            <li>✔ Verified & Trained Workforce</li>
+            <li>✔ Timely Deployment</li>
+            <li>✔ Compliance with Labor Laws</li>
+            <li>✔ Transparent Operations</li>
+        </ul>
+    </div>
+</section>
+
+<section id="contact" class="section light">
+    <div class="container">
+        <h2>Contact Us</h2>
+        <form id="contactForm">
+            <input type="text" name="name" placeholder="Your Name" required>
+            <input type="email" name="email" placeholder="Email Address" required>
+            <textarea name="message" placeholder="Your Message" required></textarea>
+            <button type="submit">Submit</button>
+        </form>
+        <p class="form-note">Your information is kept secure and confidential.</p>
+    </div>
+</section>
+
+<footer>
+    <p>© 2026 Radha Raman Ventures. All Rights Reserved.</p>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
