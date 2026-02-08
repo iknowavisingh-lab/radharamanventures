@@ -1,52 +1,152 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <title>Radha Raman Ventures | Manpower & Gig Solutions</title>
-  <link rel="stylesheet" href="style.css">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Radha Raman Ventures | Staffing Solutions</title>
+
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
 </head>
-<script src="script.js"></script>
+
 <body>
 
-<header class="navbar">
-  <img src="logo.png" class="logo" alt="Radha Raman Ventures">
+<header>
+  <img src="logo.png" alt="Radha Raman Ventures" class="logo">
   <nav>
-    <a href="#services">Services</a>
     <a href="#about">About</a>
-    <a href="careers.html">Careers</a>
+    <a href="#services">Services</a>
+    <a href="#clients">For Clients</a>
+    <a href="#career">Careers</a>
     <a href="#contact">Contact</a>
   </nav>
 </header>
 
+<!-- HERO -->
 <section class="hero">
-  <h1>Premium Manpower & Gig Workforce Solutions</h1>
-  <p>Serving East India with trusted, skilled & scalable workforce</p>
-  <a href="careers.html" class="btn">Apply for Jobs</a>
-</section>
-
-<section id="services" class="section">
-  <h2>Our Services</h2>
-  <div class="cards">
-    <div class="card">Industrial Manpower</div>
-    <div class="card">Skilled & Unskilled Labor</div>
-    <div class="card">Gig & Contract Staffing</div>
-    <div class="card">Facility & Operations Support</div>
+  <h1>Reliable Staffing Solutions for Growing Organizations</h1>
+  <p>Freelancers • Contractual Staffing • On-Roll Hiring</p>
+  <div class="cta">
+    <a href="#clients" class="btn">Partner With Us</a>
+    <a href="#career" class="btn outline">Explore Careers</a>
   </div>
 </section>
 
-<section id="about" class="section dark">
+<!-- TRUST -->
+<section class="trust">
+  <div>✔ MSME Registered</div>
+  <div>✔ Verified Talent</div>
+  <div>✔ Flexible Hiring Models</div>
+  <div>✔ Fast Turnaround</div>
+</section>
+
+<!-- ABOUT -->
+<section id="about">
   <h2>About Radha Raman Ventures</h2>
   <p>
-    Radha Raman Ventures is a dependable manpower and gig workforce solutions provider based in Dhanbad, Jharkhand, serving businesses across East India. We specialize in supplying skilled, semi-skilled, unskilled, and gig workforce tailored to diverse industry requirements.
+    Radha Raman Ventures is a professional staffing and workforce solutions
+    organization based in Dhanbad, Jharkhand. We provide freelancers,
+    contractual staff, and on-roll employees to organizations across
+    various industries.
+  </p>
+  <p>
+    Our approach focuses on ethical hiring, operational efficiency,
+    and long-term partnerships.
+  </p>
+  <p><strong>MSME:</strong> UDYAM-JH-04-0081095</p>
+</section>
 
-Our strength lies in our commitment to compliance, transparency, and workforce reliability. Every engagement is managed with strict adherence to labor laws, safety standards, and operational best practices, ensuring complete peace of mind for our clients.
+<!-- SERVICES -->
+<section id="services">
+  <h2>Our Staffing Services</h2>
 
-With a deep understanding of regional workforce dynamics and a growing talent network, we enable organizations to scale efficiently, reduce operational risks, and maintain uninterrupted productivity. At Radha Raman Ventures, we don’t just supply manpower — we build long-term workforce partnerships founded on trust, accountability, and performance.
+  <div class="cards">
+    <div class="card">
+      <h3>Freelancer Staffing</h3>
+      <p>Skilled professionals for short-term and project-based needs.</p>
+    </div>
+
+    <div class="card">
+      <h3>Contractual Staffing</h3>
+      <p>Flexible staffing solutions with compliance and cost efficiency.</p>
+    </div>
+
+    <div class="card">
+      <h3>On-Roll Staffing</h3>
+      <p>Permanent hiring aligned with your business objectives.</p>
+    </div>
+
+    <div class="card">
+      <h3>Workforce Support</h3>
+      <p>HR and workforce planning support for smooth operations.</p>
+    </div>
+  </div>
+</section>
+
+<!-- CLIENTS -->
+<section id="clients" class="clients">
+  <h2>For Clients & Partners</h2>
+  <p>
+    We help organizations build reliable and scalable teams through
+    efficient staffing solutions.
+  </p>
+
+  <form name="client" method="POST" data-netlify="true">
+    <input type="hidden" name="form-name" value="client">
+
+    <input type="text" name="company" placeholder="Company Name" required>
+    <input type="text" name="person" placeholder="Contact Person" required>
+    <input type="email" name="email" placeholder="Email Address" required>
+    <input type="tel" name="phone" placeholder="Phone Number" required>
+
+    <select name="requirement" required>
+      <option value="">Type of Staffing Required</option>
+      <option>Freelancer</option>
+      <option>Contractual</option>
+      <option>On-Roll</option>
+    </select>
+
+    <textarea name="details" placeholder="Brief Requirement"></textarea>
+
+    <button type="submit">Connect With Us</button>
+  </form>
+</section>
+
+<!-- CAREERS -->
+<section id="career">
+  <h2>Career Corner</h2>
+  <p>
+    Submit your details and resume. We will contact you when suitable
+    opportunities are available.
+  </p>
+
+  <form name="career" method="POST" data-netlify="true" enctype="multipart/form-data">
+    <input type="hidden" name="form-name" value="career">
+
+    <input type="text" name="name" placeholder="Full Name" required>
+    <input type="tel" name="contact" placeholder="Contact Number" required>
+    <input type="text" name="address" placeholder="Address" required>
+    <input type="file" name="resume" accept=".pdf,.doc,.docx" required>
+
+    <button type="submit">Apply Now</button>
+  </form>
+</section>
+
+<!-- CONTACT -->
+<section id="contact">
+  <h2>Contact Us</h2>
+  <p><strong>Address:</strong> Vasant Vihar, Dhanbad, Jharkhand – 826005</p>
+  <p><strong>Email:</strong> radharamanventures@zohomail.in</p>
+  <p><strong>WhatsApp:</strong>
+    <a href="https://wa.me/919122021116">+91 91220 21116</a>
   </p>
 </section>
 
-<section class="section">
-  <h2>Why Choose Us</h2>
-  <div class="cards">
-    <div class="card">✔ Trusted Workforce
+<!-- FOOTER -->
+<footer class="site-footer">
+  <img src="logo.png" alt="Radha Raman Ventures Logo" class="footer-logo">
+  <p>© 2026 Radha Raman Ventures | All Rights Reserved</p>
+</footer>
+
+</body>
+</html>
