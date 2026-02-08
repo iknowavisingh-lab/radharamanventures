@@ -1,20 +1,20 @@
 body {
   margin: 0;
-  font-family: 'Segoe UI', sans-serif;
-  background: #050b1e;
-  color: #fff;
+  font-family: 'Poppins', sans-serif;
+  background: #0b1c2d;
+  color: #ffffff;
 }
 
-.navbar {
+header {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 15px 50px;
-  background: #020617;
+  padding: 15px 40px;
+  background: #081524;
 }
 
 .logo {
-  height: 60px;
+  height: 50px;
 }
 
 nav a {
@@ -25,69 +25,85 @@ nav a {
 }
 
 .hero {
-  padding: 120px 20px;
+  padding: 90px 20px;
   text-align: center;
-  background: radial-gradient(circle, #0b1c3d, #020617);
+  background: linear-gradient(#081524, #0b1c2d);
 }
 
-.hero.small {
-  padding: 80px 20px;
+.hero h1 {
+  font-size: 38px;
+  margin-bottom: 10px;
 }
 
-.btn {
+.cta .btn {
   background: gold;
   color: #000;
-  padding: 14px 30px;
-  border-radius: 30px;
+  padding: 12px 25px;
+  margin: 10px;
   text-decoration: none;
-  display: inline-block;
-  margin-top: 20px;
-  font-weight: bold;
+  border-radius: 5px;
+  font-weight: 600;
 }
 
-.section {
-  padding: 80px 20px;
-  text-align: center;
+.btn.outline {
+  background: transparent;
+  border: 1px solid gold;
+  color: gold;
 }
 
-.section.dark {
-  background: #020617;
+.trust {
+  display: flex;
+  justify-content: space-around;
+  background: #12263f;
+  padding: 20px;
+  font-weight: 500;
+  flex-wrap: wrap;
+}
+
+section {
+  padding: 60px 20px;
+  max-width: 1100px;
+  margin: auto;
 }
 
 .cards {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
   gap: 20px;
-  max-width: 1000px;
-  margin: auto;
 }
 
 .card {
-  background: #0b1c3d;
-  padding: 30px;
-  border-radius: 12px;
-  border: 1px solid gold;
-}
-
-.career-form {
-  max-width: 500px;
-  margin: auto;
-  display: flex;
-  flex-direction: column;
-}
-
-.career-form input,
-.career-form select,
-.career-form textarea {
-  padding: 14px;
-  margin-bottom: 15px;
+  background: #12263f;
+  padding: 25px;
   border-radius: 8px;
-  border: none;
 }
 
-footer {
+form input,
+form select,
+form textarea,
+form button {
+  width: 100%;
+  margin: 10px 0;
+  padding: 12px;
+  border-radius: 5px;
+  border: none;
+  font-family: inherit;
+}
+
+form button {
+  background: gold;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+/* FOOTER */
+.site-footer {
+  background: #081524;
   text-align: center;
-  padding: 20px;
-  background: #020617;
-  color: #aaa;
+  padding: 30px 20px;
+}
+
+.footer-logo {
+  height: 45px;
+  margin-bottom: 10px;
 }
