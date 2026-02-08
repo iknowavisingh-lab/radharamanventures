@@ -1,151 +1,143 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Radha Raman Ventures | Staffing Solutions</title>
-
-<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Radha Raman Ventures | Staffing Solutions</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
 </head>
-
 <body>
 
+<!-- HEADER -->
 <header>
-  <img src="logo.png" alt="Radha Raman Ventures" class="logo">
-  <nav>
-    <a href="#about">About</a>
-    <a href="#services">Services</a>
-    <a href="#clients">For Clients</a>
-    <a href="#career">Careers</a>
-    <a href="#contact">Contact</a>
-  </nav>
+  <div class="container header-container">
+    <img src="logo.png" alt="Radha Raman Ventures" class="logo">
+    <nav>
+      <a href="#about">About</a>
+      <a href="#services">Services</a>
+      <a href="#clients">Clients</a>
+      <a href="#career">Careers</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </div>
 </header>
 
 <!-- HERO -->
 <section class="hero">
-  <h1>Reliable Staffing Solutions for Growing Organizations</h1>
-  <p>Freelancers • Contractual Staffing • On-Roll Hiring</p>
-  <div class="cta">
-    <a href="#clients" class="btn">Partner With Us</a>
-    <a href="#career" class="btn outline">Explore Careers</a>
+  <div class="container hero-container">
+    <h1>Reliable Staffing Solutions for Growing Organizations</h1>
+    <p>Freelancers • Contractual Staffing • On-Roll Hiring</p>
+    <div class="cta-buttons">
+      <a href="#clients" class="btn primary">Partner With Us</a>
+      <a href="#career" class="btn secondary">Explore Careers</a>
+    </div>
   </div>
-</section>
-
-<!-- TRUST -->
-<section class="trust">
-  <div>✔ MSME Registered</div>
-  <div>✔ Verified Talent</div>
-  <div>✔ Flexible Hiring Models</div>
-  <div>✔ Fast Turnaround</div>
 </section>
 
 <!-- ABOUT -->
-<section id="about">
-  <h2>About Radha Raman Ventures</h2>
-  <p>
-    Radha Raman Ventures is a professional staffing and workforce solutions
-    organization based in Dhanbad, Jharkhand. We provide freelancers,
-    contractual staff, and on-roll employees to organizations across
-    various industries.
-  </p>
-  <p>
-    Our approach focuses on ethical hiring, operational efficiency,
-    and long-term partnerships.
-  </p>
-  <p><strong>MSME:</strong> UDYAM-JH-04-0081095</p>
+<section id="about" class="section about">
+  <div class="container about-container">
+    <h2>About Radha Raman Ventures</h2>
+    <p>Radha Raman Ventures is a professional staffing and workforce solutions organization based in Dhanbad, Jharkhand. We provide freelancers, contractual staff, and on-roll employees to organizations across various industries.</p>
+    <p>Our approach focuses on ethical hiring, operational efficiency, and long-term partnerships that support sustainable business growth.</p>
+    <p><strong>MSME:</strong> UDYAM-JH-04-0081095</p>
+  </div>
 </section>
 
 <!-- SERVICES -->
-<section id="services">
-  <h2>Our Staffing Services</h2>
-
-  <div class="cards">
-    <div class="card">
-      <h3>Freelancer Staffing</h3>
-      <p>Skilled professionals for short-term and project-based needs.</p>
-    </div>
-
-    <div class="card">
-      <h3>Contractual Staffing</h3>
-      <p>Flexible staffing solutions with compliance and cost efficiency.</p>
-    </div>
-
-    <div class="card">
-      <h3>On-Roll Staffing</h3>
-      <p>Permanent hiring aligned with your business objectives.</p>
-    </div>
-
-    <div class="card">
-      <h3>Workforce Support</h3>
-      <p>HR and workforce planning support for smooth operations.</p>
+<section id="services" class="section services">
+  <div class="container">
+    <h2>Our Services</h2>
+    <div class="cards">
+      <div class="card">
+        <h3>Freelancer Staffing</h3>
+        <p>Skilled professionals for short-term and project-based needs.</p>
+      </div>
+      <div class="card">
+        <h3>Contractual Staffing</h3>
+        <p>Flexible staffing solutions with compliance and cost efficiency.</p>
+      </div>
+      <div class="card">
+        <h3>On-Roll Staffing</h3>
+        <p>Permanent hiring aligned with your business objectives.</p>
+      </div>
+      <div class="card">
+        <h3>Workforce Support</h3>
+        <p>HR and workforce planning support for smooth operations.</p>
+      </div>
     </div>
   </div>
 </section>
 
-<!-- CLIENTS -->
-<section id="clients" class="clients">
-  <h2>For Clients & Partners</h2>
-  <p>
-    We help organizations build reliable and scalable teams through
-    efficient staffing solutions.
-  </p>
-
-  <form name="client" method="POST" data-netlify="true">
-    <input type="hidden" name="form-name" value="client">
-
-    <input type="text" name="company" placeholder="Company Name" required>
-    <input type="text" name="person" placeholder="Contact Person" required>
-    <input type="email" name="email" placeholder="Email Address" required>
-    <input type="tel" name="phone" placeholder="Phone Number" required>
-
-    <select name="requirement" required>
-      <option value="">Type of Staffing Required</option>
-      <option>Freelancer</option>
-      <option>Contractual</option>
-      <option>On-Roll</option>
-    </select>
-
-    <textarea name="details" placeholder="Brief Requirement"></textarea>
-
-    <button type="submit">Connect With Us</button>
-  </form>
+<!-- CLIENTS FORM -->
+<section id="clients" class="section form-section">
+  <div class="container">
+    <h2>Partner With Us</h2>
+    <p>Fill the form below and we will get back to you promptly.</p>
+    <form name="client" method="POST" data-netlify="true">
+      <input type="hidden" name="form-name" value="client">
+      <div class="form-grid">
+        <input type="text" name="company" placeholder="Company Name" required>
+        <input type="text" name="person" placeholder="Contact Person" required>
+        <input type="email" name="email" placeholder="Email Address" required>
+        <input type="tel" name="phone" placeholder="Phone Number" required>
+        <select name="requirement" required>
+          <option value="">Type of Staffing Required</option>
+          <option>Freelancer</option>
+          <option>Contractual</option>
+          <option>On-Roll</option>
+        </select>
+        <textarea name="details" placeholder="Brief Requirement"></textarea>
+      </div>
+      <button type="submit" class="btn primary">Submit</button>
+    </form>
+  </div>
 </section>
 
-<!-- CAREERS -->
-<section id="career">
-  <h2>Career Corner</h2>
-  <p>
-    Submit your details and resume. We will contact you when suitable
-    opportunities are available.
-  </p>
-
-  <form name="career" method="POST" data-netlify="true" enctype="multipart/form-data">
-    <input type="hidden" name="form-name" value="career">
-
-    <input type="text" name="name" placeholder="Full Name" required>
-    <input type="tel" name="contact" placeholder="Contact Number" required>
-    <input type="text" name="address" placeholder="Address" required>
-    <input type="file" name="resume" accept=".pdf,.doc,.docx" required>
-
-    <button type="submit">Apply Now</button>
-  </form>
+<!-- CAREERS FORM -->
+<section id="career" class="section form-section">
+  <div class="container">
+    <h2>Career Corner</h2>
+    <p>Submit your details and resume. We will contact you when suitable opportunities are available.</p>
+    <form name="career" method="POST" data-netlify="true" enctype="multipart/form-data">
+      <input type="hidden" name="form-name" value="career">
+      <div class="form-grid">
+        <input type="text" name="name" placeholder="Full Name" required>
+        <input type="tel" name="contact" placeholder="Contact Number" required>
+        <input type="text" name="address" placeholder="Address" required>
+        <input type="file" name="resume" accept=".pdf,.doc,.docx" required>
+      </div>
+      <button type="submit" class="btn primary">Apply Now</button>
+    </form>
+  </div>
 </section>
 
 <!-- CONTACT -->
-<section id="contact">
-  <h2>Contact Us</h2>
-  <p><strong>Address:</strong> Vasant Vihar, Dhanbad, Jharkhand – 826005</p>
-  <p><strong>Email:</strong> radharamanventures@zohomail.in</p>
-  <p><strong>WhatsApp:</strong>
-    <a href="https://wa.me/919122021116">+91 91220 21116</a>
-  </p>
+<section id="contact" class="section contact">
+  <div class="container">
+    <h2>Contact Us</h2>
+    <p><strong>Address:</strong> Vasant Vihar, Dhanbad, Jharkhand – 826005</p>
+    <p><strong>Email:</strong> radharamanventures@zohomail.in</p>
+    <p><strong>WhatsApp:</strong> <a href="https://wa.me/919122021116">+91 91220 21116</a></p>
+  </div>
 </section>
 
 <!-- FOOTER -->
 <footer class="site-footer">
-  <img src="logo.png" alt="Radha Raman Ventures Logo" class="footer-logo">
-  <p>© 2026 Radha Raman Ventures | All Rights Reserved</p>
+  <div class="container footer-container">
+    <div class="footer-logo">
+      <img src="logo.png" alt="Radha Raman Ventures Logo">
+    </div>
+    <div class="footer-contact">
+      <p>Vasant Vihar, Dhanbad, Jharkhand – 826005</p>
+      <p>Email: radharamanventures@zohomail.in</p>
+      <p>WhatsApp: <a href="https://wa.me/919122021116">+91 91220 21116</a></p>
+    </div>
+    <div class="footer-copy">
+      <p>© 2026 Radha Raman Ventures | All Rights Reserved</p>
+    </div>
+  </div>
 </footer>
 
 </body>
